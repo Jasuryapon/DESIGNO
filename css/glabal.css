@@ -1,0 +1,237 @@
+@font-face {
+  font-display: swap;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/jost-v15-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jost";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/jost-v15-latin-italic.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/jost-v15-latin-500.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/jost-v15-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v15-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/manrope-v15-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/league-spartan-v11-latin-700.woff2") format("woff2");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  font-family: "Jost", sans-serif;
+  color: #333136;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+html {
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+h1 {
+  margin: 0;
+}
+.header {
+  max-width: 1440px;
+}
+
+img {
+  display: flex;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-image: url("../images/");
+  background-repeat: no-repeat;
+  background-position-y: 281px;
+}
+
+.btn {
+  color: #333136;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 17px 19px 17px 18px;
+  text-transform: uppercase;
+}
+
+.footer {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-shrink: 0;
+  padding-right: 0;
+  padding-left: 0;
+  color: #ffffff;
+  background-color: #1d1c1e;
+}
+
+.footer__orange-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 309px;
+  padding: 72px 96px;
+  background-color: #e7816b;
+  background-image: url("../images/shared/desktop/bg-pattern-call-to-action.svg");
+  background-size: cover;
+  margin-top: -220px;
+  height: 292px;
+  border-radius: 15px;
+}
+
+.footer__orange-img__title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-bottom: 19px;
+}
+
+.footer__orange-img__text {
+  color: #fff;
+  line-height: 26px;
+}
+
+.footer__wrapper .footer__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 72px;
+  margin-bottom: 40px;
+}
+.footer__wrapper .footer__item a {
+  color: #ffffff;
+}
+
+.footer__wrapper-line {
+  height: 1px;
+  opacity: 0.1;
+  background-color: #fff;
+  margin-bottom: 31px;
+}
+
+.footer__wrapper-content-box {
+  display: flex;
+}
+
+.footer__wrapper-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__wrapper-content p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  opacity: 0.5;
+}
+.footer__wrapper-content p span {
+  line-height: 26px;
+  font-weight: 300;
+}
+
+.footer__wrapper-content-first-box {
+  margin-right: 30px;
+  width: 350px;
+}
+
+.footer__wrapper-content-second-box {
+  width: 350px;
+}
+
+.footer__list {
+  display: flex;
+  gap: 16px;
+  margin-top: 44px;
+  margin-bottom: 72px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 67px;
+  margin-top: 64px;
+}
+
+.sitenav__list {
+  display: flex;
+  gap: 42px;
+}
+
+.sitenav-link {
+  color: #333136;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+main {
+  flex-grow: -1;
+}
